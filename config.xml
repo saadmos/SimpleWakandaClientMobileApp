@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        versionCode="10" 
+        version   = "2.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>PhoneGap Wakanda test</name>
+
+    <description>
+        An example for phonegap build docs. 
+    </description>
+
+    <author href="https://www.wakanda.org" email="help@wakanda.com">
+        Wakanda 
+    </author>
+	<gap:splash src="icon/android_wakanda.png"      width="240"  height="300"  gap:platform="android" />
+	<icon src="icon/9697.png" width="96"  height="97"  gap:platform="android" />
+	
+	<preference name="orientation"      value="default" />
+    <preference name="target-device"    value="universal" />
+    <preference name="fullscreen"       value="true" />
+</widget>
